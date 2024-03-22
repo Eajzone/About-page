@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Rubik+Mono+One&family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="ajqyespiritu@gmail.com">
+	<title>DigiHub</title>
+	<style>
+		body {
+            background-color: #3F4447;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: left;
+            height: 100px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding-top: 50px;
+            position: relative;
+        }
+        .navbar li:hover ul {display: block;}
+        .navbar ul li {
+            display: inline-block;
+            position: relative;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: #0ABFDF;
+            padding: 5px;
+            font-family: "Squada One", sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            display: block;
+        }
+        .navbar ul li ul{
+        	display: none;
+        	position: absolute;
+        	min-width: 169px;
+        	left: -45%;
+            top: -40%;
+        }
+        .navbar ul li ul li a:hover {
+            background-color: white;
+        }
+        .navbar ul li a:hover {
+            background-color: white;
+        }
+        hr {
+            margin-top: 30px;
+        }
+        .Des h1 {
+        	font-family: "Squada One", sans-serif;
+        	font-size: 40px;
+        	padding-left: 65px;
+        }
+        .name {
+        	color: #0ABFDF;
+        }
+        .introduction {
+        	padding-top: 35px;
+        	padding-right: 30px;
+        	text-align: center;
+        }
+        .profile-img {
+            margin-top: -10px;
+            margin-left: 70px;
+            size: 20px;
+            width:  200px;
+            height: 200px;
+        }
+        .Web h1 {
+        	font-family: "Squada One", sans-serif;
+        	font-size: 40px;
+        	color: #0ABFDF;
+        	margin-left: 70px;
+        	margin-top: 0px;
+        }
+        .Web p{
+        	margin-left: 70px;
+        	margin-top: -20px;
+        	font-family: "Squada One", sans-serif;
+        	font-size: 20px;
+        }
+        .info {
+        	margin-top: 30px;
+        }
+        .Web hr{
+        	margin-right: -30px;
+        }
+        .info h1{
+        	margin-left: 70px;
+        	font-family:  "Squada One", sans-serif;
+        	font-size: 40px;
+        	color: #0ABFDF;
+        }
+        .info hr {
+        	margin-top: -30px;
+        	width: 270px;
+        	margin-left: 70px;
+        }
+        .info p{
+        	margin-left: 80px;
+        	font-family:  "Squada One", sans-serif;
+        	font-size: 20px;
+        }
+        .info h2 {
+        	margin-left: 70px;
+        	font-family:  "Squada One", sans-serif;
+        	font-size: 40px;
+        	color: #0ABFDF;
+        }
+        .Educ {
+        	text-align: center;
+        	margin-top: -480px;
+        }
+        .Educ h1 {
+        	margin-left: 70px;
+        	font-family:  "Squada One", sans-serif;
+        	font-size: 40px;
+        	color: #0ABFDF;
+        }
+        .Educ hr {
+        	margin-top: -30px;
+        	width: 340px;
+        	margin-left: 475px;
+        }.school h1{
+        	color: #0ABFDF;
+        	font-size: 20px;
+        	margin-left: -150px;
+        	margin-top: 15px;
+        }
+        .school h2 {
+        	color: #0ABFDF;
+        	font-size: 20px;
+        	margin-left: -145px;
+        	margin-top: -15px;
+        	font-family:  "Squada One", sans-serif;
+        }
+        .school h3 {
+        	color: #0ABFDF;
+        	font-size: 20px;
+        	margin-left: -180px;
+        	margin-top: -15px;
+        	font-family:  "Squada One", sans-serif;
+        }
+        .school p{
+        	color: white;
+        	margin-left: 520px;
+        	margin-top: -10px;
+        	text-align: left;
+        }
+        .Con h1{
+        	font-size: 40px;
+        	margin-left: -100px;
+        }
+        .Con hr{
+        	margin-top: -30px;
+        	width: 170px;
+        	margin-left: 475px;
+        	margin-top: -25px;
+        }
+        .location h1{
+        	color: #0ABFDF;
+        	font-size: 20px;
+        	margin-left: -170px;
+        	margin-top: 15px;
+        	font-family:  "Squada One", sans-serif;
+        }
+        .location p{
+        	color: white;
+        	margin-left: 520px;
+        	margin-top: -10px;
+        	text-align: left;
+        }
+        .location h2{
+        	color: #0ABFDF;
+        	font-size: 20px;
+        	margin-left: -128px;
+        	margin-top: -15px;
+        	font-family:  "Squada One", sans-serif;
+        }
+        .location h3{
+        	color: #0ABFDF;
+        	font-size: 20px;
+        	margin-left: -128px;
+        	margin-top: -15px;
+        	font-family:  "Squada One", sans-serif;
+        }
+        .location a{
+        	margin-top: 20px;
+        	color: white;
+        }
+	</style>
+</head>
+<body>
+	<div class="cotainer">
+		<header class="Aboutpage">
+			<nav class="navbar">
+				<ul>
+					<li><a href="Home.html">Home</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="Project.html">Project</a>
+						<ul class="dropdown">
+							<li><a href="C++.html">C++</a></li>
+							<li><a href="HTML/CSS.html">HTML/CSS</a></li>
+							<li><a href="Networking.html">Networking</a></li>
+						</ul>
+					</li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<hr>
+		</header>
+		<div class="introduction">
+			<div class="Des">
+				<h1>Your Web Developer <span class="name">A-jay T. Espiritu</h1>
+			</div>
+			<div>
+				<img class="profile-img" src="D:\Espiritu_Web technologies1\img\about.jpg" alt="">
+			</div>
+			<div class="Web">
+				<h1>Web Development</h1>
+				<p>I am A-jay, a passionate Web Designer and Developer from Donsol, Sorsogon, Philippines.I will serve and create you</p>
+				<p>web development and design from the future.My expertise is developing next level of frontend design.</p>
+				<hr>
+			</div>
+		</div>
+		<div class="info">
+			<h1>Non-Technical Skills</h1>
+			<hr>
+			<p>- Analytical and Logical thinking skills</p>
+			<p>- Communication Skills</p>
+			<p>- Teamwork</p>
+			<p>- Adaptability</p>
+			<h2>Professional Skills</h2>
+			<hr>
+			<p>- Word Press</p>
+			<p>- Web Frameworks</p>
+			<p>- C++</p>
+			<p>- HTML/CSS</p>
+			<div class="Educ">
+				<h1>Educational Attainment</h3>
+				<hr>
+				<div class="school">
+					<h1>- Elementary</h1>
+					<p>Sevilla Elementary School 2011-2017</p>
+					<h2>- High School</h2>
+					<p>Donsol National Comprehensive High School 2017-2023</p>
+					<h3>- College</h3>
+					<p>Computer Arts and Technological College, Inc.</p>
+				</div>
+				<div class="Con">
+					<h1>Information</h1>
+					<hr>
+					<div class="location">
+						<h1>- Address</h1>
+						<p>Sevilla, Donsol, Sorsogon</p>
+						<h2>- Phone Number</h2>
+						<p>09463011160</p>
+						<h3>- Email Address</h3>
+						<p><a href="#">ajqyespiritu@gmail.com</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
